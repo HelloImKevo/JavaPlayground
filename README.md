@@ -1,6 +1,15 @@
 # Java Playground
 Playground for basic Java utilities.
 
+# Apache NetBeans IDE 11.3 Setup
+How this project was started:  
+* Click New Project.  
+* Select 'Java with Maven'.  
+* Specify the Project Name, base java package, and other required fields.  
+* Specify the `src` directory as the home for 'Source Packages'.  
+
+Code was developed using Java Version 1.8  
+
 ## Git Workflow References
 
 Useful git commands for quickly traversing repos:  

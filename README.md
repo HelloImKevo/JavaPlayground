@@ -42,6 +42,9 @@ git pull
 git checkout -b pr-new-feature
 git push -u origin pr-new-feature
 
+# Delete a remote branch
+git push origin :pr-merged-feature
+
 # Remove a git ignored file that is being tracked
 git rm -r --cached .
 git add .
@@ -65,6 +68,14 @@ git reset --soft HEAD~1
 * Great YouTube video tutorial "Creating a Simple Github Pull Request" by Jake Vanderplas: https://www.youtube.com/watch?v=rgbCcBNZcdQ  
 
 ```
+# Show which Git branches are tracking remote and upstream (source repo forked from)
+git branch -vv
+
+# Keeping a fork up-to-date
+git remote add upstream git://github.com/ORIGINAL-USERNAME/FORKED-PROJECT.git
+git fetch upstream
+git pull upstream master
+
 # List all remote pull requests
 git ls-remote origin 'pull/*/head'
 

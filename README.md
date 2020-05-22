@@ -13,8 +13,8 @@ How this existing project was opened:
 * Click Open Project.  
 * Select 'JavaPlayground'.  
 * If you see the 'Project SDK is not defined' error, click on 'Setup SDK' and select the appropriate JDK version.  
-* Right click on the the `src/src/main/java` directory, and select 'Mark Directory as... Sources Root'.  
-* Try to run any `.java` file with a `public static void main()` method. If the IDE complains that an output directory has not been selected, then open the Project Settings, and specify the `target` directory as the destination for compiler output (Note: This directory may not exist in the repo, because it is gitignored).  
+* Right click on the the `src/main/java` directory, and select 'Mark Directory as... Sources Root'.
+* Try to run any `.java` file with a `public static void main()` method. If the IDE complains that an output directory has not been selected, then open the **Project Settings**, and specify the `target` directory as the destination for compiler output (Note: This directory may not exist in the repo, because it is gitignored).
 * If the compiler complains with an error: `Error: java: invalid source release: 11`, open up Project Settings > Modules > Sources and set the correct language level. Example: "8 - Lambdas, type annotations, etc."  
 
 Code was developed using Java Version 1.8  

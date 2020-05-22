@@ -27,7 +27,13 @@ hs_err_pid*
 
 # Apache NetBeans IDE
 /nbproject/private/
-/src/target/
+
+# Generated output
+/target/classes/
+/target/generated-sources/
+/target/maven-status/
+/target/production/
+/target/test-classes/
 
 # IntelliJ
 *.iml

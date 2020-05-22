@@ -28,3 +28,21 @@ hs_err_pid*
 # Apache NetBeans IDE
 /nbproject/private/
 /src/target/
+
+# IntelliJ
+*.iml
+.idea/dictionaries
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/misc.xml
+.idea/modules.xml
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/workspace.xml
+
+# Comment next line if keeping position of elements in Navigation Editor is relevant for you
+.idea/navEditor.xml
+
+# Version control
+vcs.xml
